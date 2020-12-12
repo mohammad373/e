@@ -22,7 +22,7 @@ def __target__():
             sys.exit()
         except:
             pass
-    if clear not "y" or clear not "n":
+    if clear != "y" or clear != "n":
         try:
             time.sleep(1)
             print(Fore.RED + "\n[!] ~ Soury Your Input Is NotFound ;(")
