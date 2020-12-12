@@ -22,14 +22,7 @@ def __target__():
             sys.exit()
         except:
             pass
-    if clear != "y" or clear != "n":
-        try:
-            time.sleep(1)
-            print(Fore.RED + "\n[!] ~ Soury Your Input Is NotFound ;(")
-            time.sleep(1)
-            sys.exit()
-        except:
-            pass
+
     time.sleep(1)
     print(Fore.GREEN + "\nSo . Pleass 3 Sec Wail ;)")
     time.sleep(3)
@@ -52,14 +45,7 @@ def __target__():
             sys.exit()
         except:
             pass
-    if wp != "1" or wp != "2":
-        try:
-            time.sleep(1)
-            print(Fore.YELLOW + "\n[" + Fore.RED + "!" + Fore.YELLOW + "]" + Fore.RED + " ~ " + Fore.BLUE + "Error Your Input Is Not Found ;(")
-            time.sleep(1)
-            sys.exit()
-        except:
-            pass
+
     #----
     clear2 = input(Fore.RED + "\n[!] ~ Are Clear Text In Terminal (y , n) ==>  ")
     if clear2 == "" or None:
@@ -74,14 +60,7 @@ def __target__():
         os.system("clear")
     if clear2.lower() == "N":
         time.sleep(1)
-    else:
-        try:
-            time.sleep(1)
-            print(Fore.BLUE + "\n[" + Fore.RED + "!" + Fore.BLUE + "]" + Fore.RED + " ~ " + Fore.YELLOW + "Error : Your Input Is Not Found ;(")
-            time.sleep(1)
-            sys.exit()
-        except:
-            pass
+
     # ----
     #       /wp-content/plugins/
     time.sleep(1)
