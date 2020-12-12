@@ -22,7 +22,7 @@ def __target__():
             sys.exit()
         except:
             pass
-    if clear not None or clear not "y" or clear not "n":
+    if clear not "y" or clear not "n":
         try:
             time.sleep(1)
             print(Fore.RED + "\n[!] ~ Soury Your Input Is NotFound ;(")
@@ -52,7 +52,7 @@ def __target__():
             sys.exit()
         except:
             pass
-    if wp not None or wp not "1" or wp not "2":
+    if wp not "1" or wp not "2":
         try:
             time.sleep(1)
             print(Fore.YELLOW + "\n[" + Fore.RED + "!" + Fore.YELLOW + "]" + Fore.RED + " ~ " + Fore.BLUE + "Error Your Input Is Not Found ;(")
