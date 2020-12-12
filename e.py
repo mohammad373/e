@@ -57,7 +57,9 @@ def __target__():
         except:
             pass
     if clear2.lower() == "y":
+        time.sleep(1)
         os.system("clear")
+        
     if clear2.lower() == "N":
         time.sleep(1)
 
@@ -68,7 +70,7 @@ def __target__():
     if target == "" or None:
         try:
             time.sleep(1)
-            print(Fore.RED + "[!] ~ Error : Your Input Is None Or Not Found ;(")
+            print(Fore.RED + "\n[!] ~ Error : Your Input Is None Or Not Found ;(")
             time.sleep(1)
             sys.exit()
         except:
@@ -84,7 +86,7 @@ def __target__():
             pass
     else:
         time.sleep(1)
-        print(Fore.GREEN + "[+]" + Fore.BLUE + " ~ " + Fore.GREEN + "Ok , Your Target Is WordPreass :)")
+        print(Fore.GREEN + "\n[+]" + Fore.BLUE + " ~ " + Fore.GREEN + "Ok , Your Target Is WordPreass :)")
         time.sleep(0.2)
     # ------
     my_list = ["xmlrpc.php" , "xmlrpc"]
@@ -99,7 +101,7 @@ def __target__():
                 sys.exit()
             except:
                 pass
-        else:
+        if test.status_code != 404 or test.status_code != 500:
             time.sleep(1)
             print(Fore.GREEN + "[+]" + Fore.BLUE + " ~ " + Fore.GREEN + "Ok , Your Xmlrpc Target Is Open ;)")
 __target__()
