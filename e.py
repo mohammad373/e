@@ -38,13 +38,12 @@ def __target__():
     if wp == "1":
         time.sleep(1)
     if wp == "2":
-        try:
+
             time.sleep(1)
             print(Fore.RED + "\n[" + Fore.BLUE + "!" + Fore.RED + "]" + Fore.BUE + " ~ " + Fore.YELLOW + "Error : Your Target Is Not WordPress ;(")
             time.sleep(1)
             sys.exit()
-        except:
-            pass
+
 
     #----
     clear2 = input(Fore.RED + "\n[!] ~ Are Clear Text In Terminal (y , n) ==>  ")
@@ -89,7 +88,7 @@ def __target__():
         print(Fore.GREEN + "\n[+]" + Fore.BLUE + " ~ " + Fore.GREEN + "Ok , Your Target Is WordPreass :)")
         time.sleep(0.2)
     # ------
-    my_list = ["xmlrpc.php" , "xmlrpc"]
+    my_list = ["xmlrpc"]
     for i in my_list:
         time.sleep(0.1)
         test = requests.get("http://" + target + "/wp-content/plugins/" + i)
