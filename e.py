@@ -40,7 +40,7 @@ def __target__():
     if wp == "2":
 
             time.sleep(1)
-            print(Fore.RED + "\n[" + Fore.BLUE + "!" + Fore.RED + "]" + Fore.BUE + " ~ " + Fore.YELLOW + "Error : Your Target Is Not WordPress ;(")
+            print(Fore.RED + "\n[" + Fore.BLUE + "!" + Fore.RED + "]" + Fore.BLUE + " ~ " + Fore.YELLOW + "Error : Your Target Is Not WordPress ;(")
             time.sleep(1)
             sys.exit()
 
