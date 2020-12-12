@@ -14,7 +14,7 @@ def __target__():
         time.sleep(1)
         os.system("clear")
     if clear.lower() == "n":
-        pass
+        print("")
     if clear == "" or None:
         try:
             print(Fore.RED + "\n[!] Error : Your Input Is None Or Not Found ;(")
@@ -61,6 +61,8 @@ def __target__():
         
     if clear2.lower() == "N":
         time.sleep(1)
+        print("")
+  
 
     # ----
     #       /wp-content/plugins/
