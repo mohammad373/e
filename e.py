@@ -87,7 +87,7 @@ def __target__():
             pass
     else:
         time.sleep(1)
-        print(Fore.GREEN + "\n[+]" + Fore.BLUE + " ~ " + Fore.GREEN + "Ok , Your Target Is WordPreass :)")
+        print(Fore.GREEN + "\n[+]" + Fore.BLUE + " ~ " + Fore.GREEN + "Ok , Your Target Is WordPreass :)\n")
         time.sleep(0.2)
     # ------
     my_list = ["xmlrpc"]
