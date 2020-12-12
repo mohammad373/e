@@ -24,7 +24,7 @@ def __target__():
             pass
 
     time.sleep(1)
-    print(Fore.GREEN + "\nSo . Pleass 3 Sec Wail ;)")
+    print( Fore.BLUE + "[*]"+ Fore.YELLOW +" ~ " + Fore.GREEN + "So . Pleass 3 Sec Wail ;)")
     time.sleep(3)
     wp = input(Fore.BLUE + "\n[" + Fore.RED + "!" + Fore.BLUE + "]" + Fore.RED + " ~ " +Fore.GREEN + "Are You Target Is WordPress ? ( 1 : yes | 2: no )" + Fore.YELLOW + " ==>  ")
     if wp == "" or None:
