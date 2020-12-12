@@ -22,7 +22,7 @@ def __target__():
             sys.exit()
         except:
             pass
-    else:
+    if clear not "" or clear not None or clear not "y" or clear not "n":
         try:
             time.sleep(1)
             print(Fore.RED + "\n[!] ~ Soury Your Input Is NotFound ;(")
@@ -30,7 +30,8 @@ def __target__():
             sys.exit()
         except:
             pass
-    print(Fore.GREEN + "So . Pleass 3 Sec Wail ;)")
+    time.sleep(1)
+    print(Fore.GREEN + "\nSo . Pleass 3 Sec Wail ;)")
     time.sleep(3)
     wp = input(Fore.BLUE + "\n[" + Fore.RED + "!" + Fore.BLUE + "]" + Fore.RED + " ~ " +Fore.GREEN + "Are You Target Is WordPress ? ( 1 : yes | 2: no )" + Fore.YELLOW + " ==>  ")
     if wp == "" or None:
@@ -51,7 +52,7 @@ def __target__():
             sys.exit()
         except:
             pass
-    else:
+    if wp not None or wp not "" or wp not "1" or wp not "2":
         try:
             time.sleep(1)
             print(Fore.YELLOW + "\n[" + Fore.RED + "!" + Fore.YELLOW + "]" + Fore.RED + " ~ " + Fore.BLUE + "Error Your Input Is Not Found ;(")
