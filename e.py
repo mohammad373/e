@@ -52,7 +52,7 @@ def __target__():
             sys.exit()
         except:
             pass
-    if wp not "1" or wp not "2":
+    if wp != "1" or wp != "2":
         try:
             time.sleep(1)
             print(Fore.YELLOW + "\n[" + Fore.RED + "!" + Fore.YELLOW + "]" + Fore.RED + " ~ " + Fore.BLUE + "Error Your Input Is Not Found ;(")
